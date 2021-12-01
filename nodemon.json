@@ -9,5 +9,5 @@
         "src"
     ],
     "ext": "ts",
-    "exec": "npx ts-node -p tsconfig.json -r ./src/server.ts"
+    "exec": "npx ts-node -P tsconfig.json -r ./src/server.ts"
 }
