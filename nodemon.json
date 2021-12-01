@@ -1,0 +1,13 @@
+{
+    "verbose": true,
+    "ignore": [
+        "*.js",
+        "views/*",
+        "public/*"
+    ],
+    "watch": [
+        "src"
+    ],
+    "ext": "ts",
+    "exec": "npx ts-node -p tsconfig.json -r ./src/server.ts"
+}
