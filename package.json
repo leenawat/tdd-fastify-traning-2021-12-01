@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.24.1"
+    "@sinclair/typebox": "^0.23.0",
+    "fastify": "^3.24.1",
+    "fastify-swagger": "^4.12.6"
   },
   "devDependencies": {
     "@types/node": "^16.11.11",
